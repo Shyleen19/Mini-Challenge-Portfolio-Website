@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: aqua;
+}
+#todo-img{
+    width:10px
+}
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#todo-list li:last-child {
+    border-bottom: none;
+}
+
+#todo-list li.completed {
+    text-decoration: line-through;
+}
+
+#alert-message {
+    color: green;
+    font-size: 18px;
+    margin-top: 10px;
+}
